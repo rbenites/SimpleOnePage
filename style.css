@@ -9,6 +9,7 @@ body {
   font-family: "Lato", sans-serif;
 }
 
+/*Navagation bar styleing*/
 #nav ul {
   list-style: none;
   margin: 0 auto;
@@ -17,7 +18,7 @@ body {
 #nav li {
   float: left;
   padding: 0 10px;
-  border: 1px solid red;
+  /*border: 1px solid red;*/
   margin: 2px;
   background-color: black;
 }
@@ -26,15 +27,17 @@ body {
   font-size: 1em;
   color: white;
 }
+/*tagging anchor tag to add hover color change*/
+#nav li a:hover {
+    color: red;
+  }
+  
 #nav li a.active {
   border-bottom: :3px solid yellow;
   color: yellow;
 }
 
-/*tagging anchor tag to add hover color change*/
-#nav li a:hover {
-  color: red;
-}
+
 #mast {
   width: 100%;
   background-color: #ddd;
