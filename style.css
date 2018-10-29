@@ -38,16 +38,56 @@
     margin-top: 10px;
     width: 600px;
 }
+
+/*This starts the section formating*/
 .clear{
     clear: both;
+}
+.wrap{
+    background-color:rgb(200,200,200);
+    background-color:rgba(200,200,200,0.5);    border-radius: 20px;
+    padding:30px;
+    margin:40px auto;
+
 }
 /*each section is min height 500px*/
 .section {
     border: 1px solid #ddd;
     min-height: 500px;
+    background-color: #fff;
 }
 .container{
     max-width: 1040px;
     border: 1px solid black;
     margin: 0 auto;
+}
+
+/* section styling*/
+#section1{
+    background:url('http://via.placeholder.com/1200x800/EE33CC/0033333?text=Section 1');
+    background-size: cover;
+}
+
+#section3{
+    background:url('http://via.placeholder.com/1200x800/EE33CC/0033333?text=Section 3');
+}
+
+#section5{
+    background:url('http://via.placeholder.com/1200x800/EE33CC/0033333?text=Section 5');
+    background-size: cover;
+}
+
+/*footer styl section*/
+#footer{
+    background-color: #333;
+    color:white;
+}
+.col-1{
+width: 66%;
+display: inline-block;
+margin-bottom: 20px;
+}
+.col-2{
+width: 33%;
+display: inline-block;
 }
