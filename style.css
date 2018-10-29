@@ -1,0 +1,53 @@
+/*
+#=ID
+.=class
+*/
+
+#nav ul{
+    list-style: none;
+    margin:0 auto;
+    display:block;
+}
+#nav li{
+    float: left;
+    padding:0 10px;
+    border: 1px solid red;
+    margin: 2px;
+    background-color: black;
+}
+#nav li a{
+    text-decoration: none;
+    font-size: 1em;
+    color: white;
+}
+
+/*tagging anchor tag to add hover color change*/
+#nav li a:hover{
+    color: red;
+}
+#mast{
+    width: 100%;
+    background-color: #ddd;
+    height: 50px;
+    margin-top: 20px;
+    position: fixed;
+
+}
+#nav{
+   float: right;
+    margin-top: 10px;
+    width: 600px;
+}
+.clear{
+    clear: both;
+}
+/*each section is min height 500px*/
+.section {
+    border: 1px solid #ddd;
+    min-height: 500px;
+}
+.container{
+    max-width: 1040px;
+    border: 1px solid black;
+    margin: 0 auto;
+}
